@@ -25,14 +25,15 @@ node´s fluent-ffmpeg recipes bootstraping
 
 ## Install
 
-* cd to the project folder
-* run :
+* cd to the project folder & run :
 
 <pre>
   npm install
 </pre>
 
 ## Run It!
+
+* cd to the project folder (if you are not still there) & run :
 
 <pre>
   grunt
