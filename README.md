@@ -44,9 +44,17 @@ node´s fluent-ffmpeg recipes bootstraping
 * Wait or check your Terminal logs.
 * Check '_processed' folder to see your converted videos.
 
-## And now?
+## What more?
 
 * Edit src/coffee/process.coffee
 * Edit config or operations vaules.
+
+## What´s going on?
+
+* grunt will be watching both '_videos' and 'src/coffee/*.coffee'
+* Editing / Saving 'src/coffee/process.coffee' will compile to 'process.js' and will be executed.
+* Files contained in '_videos' will be reencoded with the new settings.
+* Again adding new videos will reencode the all.
+* If you don´t want the to be reencoded, please remove them from '_videos'.
 
 
