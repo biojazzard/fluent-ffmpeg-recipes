@@ -1,0 +1,44 @@
+{
+    "src": {
+        "coffee":   "src/coffee/",
+        "less":     "src/less/"
+    },
+    "dist": {
+        "folder":   "",
+        "index":    "index",
+        "js":       "",
+        "css":      "css/",
+        "img":      "img/",
+        "fonts":    "fonts/",
+        "test":     "test/"
+    },
+	"third_party_libs": [
+        "third_party/jquery/jquery-1.9.1.min.js",
+        "third_party/jquery/jquery.easing.1.3.js"
+    ],
+    "third_party_unminified_libs": [
+        "third_party/jquery/jquery.form.js"
+    ],
+    "third_party_css": [
+        "third_party/CodeMirror/lib/codemirror.css"
+    ],
+	"tests": [
+        "tests/tests.js"
+    ],
+	"scripts": [
+        "src/js/plugins.js",
+        "src/js/script.js"
+    ],
+    "sections": [
+        "html/index-banner.html",
+        "html/index-main.html",
+        "html/html-banner.html",
+        "html/html-navbar.html",
+        "html/html-footer.html"
+    ],
+    "qunit": [
+        "html/qunit.html"
+    ],
+    "qunit_lib": "http://code.jquery.com/qunit/qunit-1.10.0.js",
+    "qunit_css": "http://code.jquery.com/qunit/qunit-1.10.0.css"
+}

@@ -1,0 +1,45 @@
+{
+  "name": "fluent-ffmpeg-recipes",
+  "version": "0.1.0",
+  "homepage": "http://tsoho.es/fluent-ffmpeg-recipes",
+  "description": "Recipes for A fluent API to FFMPEG (http://www.ffmpeg.org)",
+  "keywords": [
+    "ffmpeg",
+    "node",
+    "fluent-ffmpeg",
+    "video",
+    "recipes"
+  ],
+  "author": {
+    "name": "Alfredo Llanos",
+    "email": "alfredo@tallerdelsoho.es"
+  },
+  "bugs": {
+    "mail": "alfredo@tallerdelsoho.es",
+    "url": "http://github.com/biojazzard/fluent-ffmpeg-recipes/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/biojazzard/fluent-ffmpeg-recipes.git"
+  },
+  "dependencies": {
+    "fluent-ffmpeg": ">=1.3.3"
+  },
+  "engines": {
+    "node": ">=0.5.0"
+  },
+  "main": "index",
+  "scripts": {
+    "test": "make test"
+  },
+  "readme": "# Recipes for Fluent ffmpeg-API for node.js",
+  "readmeFilename": "README.md",
+  "license": "MIT",
+  "devDependencies": {
+    "grunt-contrib-coffee": "~0.7.0",
+    "grunt-contrib-uglify": "~0.2.0",
+    "grunt-contrib-watch": "~0.3.1",
+    "grunt-shell": "~0.2.2",
+    "underscore": "~1.4.4"
+  }
+}
