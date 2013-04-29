@@ -34,5 +34,3 @@ nbproject
 .CVS
 .idea
 node_modules
-_videos/*.*
-_processed/*.*
